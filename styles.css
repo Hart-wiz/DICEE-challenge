@@ -1,0 +1,106 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #162b1e;
+  height: fit-content;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ecca3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+.diceSection {
+  padding-bottom: 3rem;
+}
+
+img {
+  width: 60%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+/* styling the button */
+button {
+  background-color: green;
+  padding: 1rem;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 30%;
+}
+
+button:hover {
+  background-color: rgb(1, 82, 148);
+  cursor: pointer;
+  transition: 50ms;
+}
+
+.overall {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.meter {
+  border-style: solid;
+  border-color: whitesmoke;
+  width: 5rem;
+  border-radius: 1.5rem;
+  align-content: center;
+  color: white;
+  font-weight: 600;
+}
+
+.grader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.grader span {
+  color: rgb(253, 152, 0);
+  font-weight: 700;
+  font-style: italic;
+}
+#plays {
+  color: green;
+  background-color: white;
+  border-radius: 50%;
+  width: 3rem;
+}
+.over {
+  color: green;
+}
+.allPlays {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.5em;
+}
+.allPlays span {
+  text-align: center;
+}

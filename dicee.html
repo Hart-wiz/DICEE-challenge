@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <h1>let the dice speak</h1>
+      <section class="diceSection">
+        <div class="dice">
+          <p>Player 1</p>
+          <img class="img1" src="images\dice6.png" />
+        </div>
+
+        <div class="dice">
+          <p>Player 2</p>
+          <img class="img2" src="images\dice6.png" />
+        </div>
+      </section>
+      <section class="overall">
+        <button onclick="rollDice()">Roll Dice</button>
+        <div class="grader">
+          <span>player One</span>
+          <div class="meter" id="one">player1</div>
+        </div>
+
+        <div class="grader">
+          <span>player Two</span>
+          <div class="meter" id="two">player2</div>
+        </div>
+
+        <div class="allPlays">
+          <span class="over">Overall roll</span>
+          <div class="meter" id="plays">n.o of plays</div>
+        </div>
+      </section>
+    </main>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+
+  <footer>&copy 2024 &Coproduct; &coprod; weconet Technologies</footer>
+</html>
